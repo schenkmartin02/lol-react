@@ -12,8 +12,8 @@ function Champions({ api, region, data }) {
     var APICallString =
       "https://" +
       region +
-      ".api.riotgames.com/lol/champion-mastery/v4/champion-masteries/by-summoner/" +
-      data.id +
+      ".api.riotgames.com/lol/champion-mastery/v4/champion-masteries/by-puuid/" +
+      data.puuid +
       "?api_key=" +
       api;
 
